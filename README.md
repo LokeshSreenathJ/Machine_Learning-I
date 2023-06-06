@@ -1,7 +1,8 @@
 # Machine_Learning-I
  Here we will discuss the Supervised/Unsupervised Machine Learning Models
 # Linear Regression:
- 
+1. Here I used two diffrent approaches to find the parameters of Linear Regression Model. One using the Gradient Descent approach of minimizing the Least Square loss; other is Moore-Penrose pseudoinverse Method. Instead of using Ordinary Least square method Moore-Penrose's method of using Pseudo-Inverse will give us the parameters of the linear regression model irrespective of "rank" of the matrix.
+2. Also worked on Polynomial Regression by expanding the feature space in the desired order, along with the XOR data. Found out the parameters of the XOR_model by expanding the feature space in more dimensions, which cannot be linearly seperable in two dimensional space.
 # K Means Clustering Algorithm:
  What Problem does it solve ? : Finding Natural patterns and similar groups of data when ground truths are not known.
  Where Can I potentially use this? : Customer Segmentation, Anomaly Detection, Recommendation Systems, Clustering
