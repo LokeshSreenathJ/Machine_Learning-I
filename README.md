@@ -1,5 +1,7 @@
-# Machine_Learning-Supervised-Unsupervised
-
+# Machine_Learning-I
+ Here we will discuss the Supervised/Unsupervised Machine Learning Models
+# Linear Regression:
+ 
 # K Means Clustering Algorithm:
  What Problem does it solve ? : Finding Natural patterns and similar groups of data when ground truths are not known.
  Where Can I potentially use this? : Customer Segmentation, Anomaly Detection, Recommendation Systems, Clustering
