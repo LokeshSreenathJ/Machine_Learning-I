@@ -14,6 +14,18 @@ Here all the points are properly classified. (-1,1) and (1,-1) are classified as
 classify points correctly, as it has a more flexible feature space which also includes the quadratic features which better helps in classifying the above data points, as the data points are not linearly separable in two dimensional vector space
 ![image](https://github.com/LokeshSreenathJ/Machine_Learning-I/assets/115972450/24fce893-8f75-47ab-a7ed-0465b8b1fc60)
 
+# Support Vector Machines: 
+ 1. Modeled SVM (soft when c is between 0 to inf /hard when c = inf) by training the lagrangian equation using dual variable rather than using Hinge loss. The reasons are as follows:
+     A) Computational Efficiency: The dual formulation leads to a convex quadratic programming problem, which can be solved using efficient optimization algorithms
+     B) Kernel Trick: Kernalization can be directly applied in case of dual formualtion
+     C) Support Vector Identification: Solving the dual formulation gives the values of ai, this value determines the importance of i-th obesravation in forming the decision boundary. 
+
+Experiment: Considering the Learning rate as 0.1 and Gradient Descent step-size as 10000, performed the following kernel SVMs, trained on the XOR data (present in the code)
+Results: 
+![image](https://github.com/LokeshSreenathJ/Machine_Learning-I/assets/115972450/6c108430-64bd-4b91-b70d-b1a7ed6bfdf0)
+![image](https://github.com/LokeshSreenathJ/Machine_Learning-I/assets/115972450/4cdf6674-bf92-4869-a54d-fb844316faf0)
+
+
 # K Means Clustering Algorithm:
  What Problem does it solve ? : Finding Natural patterns and similar groups of data when ground truths are not known.
  Where Can I potentially use this? : Customer Segmentation, Anomaly Detection, Recommendation Systems, Clustering
